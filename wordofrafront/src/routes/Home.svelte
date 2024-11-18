@@ -1,18 +1,24 @@
 <script>
   import { Link } from "svelte-routing";
+
+  //import assets
+  import OneFreeMiracle from '/src/assets/ONE FREE MIRACLE.png';
+  import Harmony from '/src/assets/HARMONY.jpg';
+  import Tragedy from '/src/assets/TRAGEDY.png';
+  import TreeArt from '/src/assets/TREE ART.jpg';
   
   // Sample data for blog posts and projects
   const blogHighlights = [
     {
       title: "Understanding Modern Web Development",
       excerpt: "Exploring the latest trends and best practices in web development for 2024.",
-      image: "/blog-1.jpg",
+      image: OneFreeMiracle,
       link: "/blog/modern-web-development"
     },
     {
       title: "Building Scalable Applications",
       excerpt: "A deep dive into architecture patterns for scalable web applications.",
-      image: "/blog-2.jpg",
+      image: Harmony,
       link: "/blog/scalable-applications"
     }
   ];
@@ -21,13 +27,13 @@
     {
       title: "E-commerce Platform",
       description: "A full-stack e-commerce solution built with Django and React.",
-      image: "/project-1.jpg",
+      image: TreeArt,
       link: "/projects/ecommerce"
     },
     {
       title: "Content Management System",
       description: "Custom CMS built for a media company using Python and PostgreSQL.",
-      image: "/project-2.jpg",
+      image: Tragedy,
       link: "/projects/cms"
     }
   ];
@@ -130,7 +136,7 @@
   }
 
   .hero-content {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
   }
@@ -168,23 +174,6 @@
   .profile-img {
     width: 100%;
     border-radius: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-
-  .cta-button {
-    display: inline-block;
-    background-color: #EEE2D6;
-    color: #2D3748;
-    padding: 1rem 2rem;
-    border-radius: 9999px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all 0.3s ease;
-  }
-
-  .cta-button:hover {
-    background-color: #d88d41;
-    transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
