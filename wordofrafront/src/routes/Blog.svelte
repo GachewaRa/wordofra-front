@@ -1,6 +1,10 @@
 <script>
   import { Link } from "svelte-routing";
 
+  import Databases from "/src/assets/database.jpg";
+  import DjangoFaster from "/src/assets/django-faster.jpg";
+  import Svelte from "/src/assets/svelte.jpeg";
+
   // Sample blog posts data - replace with your actual data source
   const blogPosts = [
     {
@@ -10,7 +14,7 @@
       date: "2024-03-15",
       category: "Backend Development",
       readTime: "8 min read",
-      image: "/blog/django-scaling.jpg",
+      image: DjangoFaster,
       slug: "building-scalable-django-apps"
     },
     {
@@ -20,7 +24,7 @@
       date: "2024-03-10",
       category: "Frontend Development",
       readTime: "6 min read",
-      image: "/blog/svelte-intro.jpg",
+      image: Svelte,
       slug: "modern-frontend-svelte"
     },
     {
@@ -30,7 +34,7 @@
       date: "2024-03-05",
       category: "Database",
       readTime: "10 min read",
-      image: "/blog/database-opt.jpg",
+      image: Databases,
       slug: "database-optimization"
     }
   ];
@@ -94,9 +98,11 @@
 
 <style>
   .blog-container {
-    max-width: 1000px;
-    margin: 0 auto;
     padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 20%;
+    padding-right: 5%;
   }
 
   .blog-header {

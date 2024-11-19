@@ -87,9 +87,11 @@
 
 <style>
   .skills-container {
+    padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    margin-left: 20%;
+    padding-right: 5%;
   }
 
   .skills-header {

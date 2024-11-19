@@ -42,7 +42,7 @@
 
 <div class="projects-container">
   <header class="projects-header">
-    <h1>My Skills</h1>
+    <h1>My Projects</h1>
     <p class="subtitle">Transforming ideas into digital reality with expertise and precision</p>
   </header>
 
@@ -87,9 +87,11 @@
 
 <style>
   .projects-container {
+    padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    margin-left: 20%;
+    padding-right: 5%;
   }
 
   .projects-header {

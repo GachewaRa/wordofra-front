@@ -117,12 +117,12 @@
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    margin-left: 22%;
-    padding-right: 22%;
+    margin-left: 20%;
+    padding-right: 5%;
   }
 
   .hero {
-    padding: 4rem 0;
+    padding: 2rem 0;
     background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.9),
