@@ -92,7 +92,7 @@
     margin: 0 auto;
     margin-left: 20%;
     padding-right: 5%;
-    margin-top: 50px;    /* Added: slightly more than header height */
+    margin-top: 50px;
     margin-bottom: 50px;
   }
 

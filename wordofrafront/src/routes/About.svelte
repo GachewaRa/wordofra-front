@@ -4,9 +4,9 @@
 
 <section class="about-section">
   <div class="profile">
-    <img src="./assets/MY POTRAIT.jpg" alt="Ra" class="profile-picture" />
+    <img src="/src/assets/MY POTRAIT.jpg" alt="Ra" class="profile-picture" />
     <h1>Your Name</h1>
-    <p class="title">Your Title or Role (e.g., "Software Developer, Blogger")</p>
+    <p class="title">Software Developer, Blogger</p>
   </div>
 
   <div class="bio">
@@ -39,11 +39,14 @@
 <style>
   .about-section {
     max-width: 800px;
-    margin: auto;
     padding: 2rem;
     text-align: center;
     color: #333;
     font-family: Arial, sans-serif;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .profile {

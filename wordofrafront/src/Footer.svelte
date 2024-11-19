@@ -1,11 +1,20 @@
+<script>
+  import { Link } from "svelte-routing";
+</script>
+
 <!-- Footer -->
 <div class="footer bg-cover bg-center">
     <div class="footer-content left">
-      <button class="footer-button">About Me</button>
+      <Link to="/about" class="footer-button">
+        About Me
+      </Link>
       <p class="footer-text-left">I AM</p>
     </div>
     <div class="footer-content right">
-      <button class="footer-button">Contact Me</button>
+      
+      <Link to="/contact" class="footer-button">
+        Contact Me
+      </Link>
       <p class="footer-text-right">BECAUSE WE ARE</p>
     </div>
   </div>
