@@ -101,7 +101,9 @@
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    margin-left: 20%;
+    margin-left: 22%;
+    margin-top: 50px;    /* Added: slightly more than header height */
+    margin-bottom: 100px; /* Added: slightly more than footer height */
     padding-right: 5%;
   }
 
